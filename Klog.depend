@@ -1,6 +1,0 @@
-# depslib dependency file v1.0
-1484062591 source:c:\users\stefano peris\documents\c++ project\klog\main.cpp
-	<iostream>
-	<windows.h>
-	<winuser.h>
-
