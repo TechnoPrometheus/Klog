@@ -27,6 +27,13 @@ int main()
 
 int Save (int key_stroke, char *file)
 {
+    if ( (key_stroke == 1) || (key_stroke == 2) )
+    return 0;
+
+    FILE *OUTPUT_FILE;
+    OUTPUT_FILE = fopen(file, "a+");
+    fprintf(OUTPUT_FILE, "%s", &key_stroke);
+    fclose(OUTPUT_FILE);
     cout << key_stroke << endl;
 
     return 0;
